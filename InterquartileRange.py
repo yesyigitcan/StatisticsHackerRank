@@ -1,3 +1,13 @@
+#########################################################################################
+# Calculate interquartile range (Q1 - Q3) by using a frequency table                    #
+# Sample input                                                                          #
+# 6                                                                                     #
+# 6 12 8 10 20 16                                                                       #
+# 5 4 3 2 1 5                                                                           #
+# Sample output                                                                         #
+# 9.0                                                                                   #
+# Solution sort given table, calculate new cumulative frequency value, calculate median #
+#########################################################################################
 def cumulate(arr, length):
     arr2 = list()
     arr2.append((arr[0][0], arr[0][1]))
