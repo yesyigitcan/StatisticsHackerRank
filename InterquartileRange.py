@@ -1,6 +1,6 @@
 #########################################################################################
 # Calculate interquartile range (Q1 - Q3) by using a frequency table                    #
-# Sample input                                                                          #
+# Sample input (row count of table, numbers, frequency of numbers)                      #
 # 6                                                                                     #
 # 6 12 8 10 20 16                                                                       #
 # 5 4 3 2 1 5                                                                           #
